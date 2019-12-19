@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+
+
+body {
+	font-family: 'Tomorrow', sans-serif;
+	background-color: #92cf9a;
+}
+body {
+	background-image: url("leaves.jpg");
+  	background-repeat: repeat;
+}
+body, html {
+	height: 100%;
+}
+
+
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)), url(images/heroearth.jpg);
+	height: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text {
+	margin-left: 500px;
+	margin-right: 500px;
+	text-align: center;
+	position: absolute; 
+	color: white;
+}
+/*LINK STYLE*/
+a.gnd:link {
+	text-decoration: none; color: #90ff00;
+}
+a.gnd:visited {
+	text-decoration: none; color: #90ff00;
+}
+a.gnd:hover {
+	text-decoration: underline; color: #ff0099;
+}
+a.gnd:active {
+	text-decoration: none; color: #90ff00;
+}
+
+a.emergency:link {
+	text-decoration: none; color: #2a52be;
+}
+a.emergency:visited {
+	text-decoration: none; color: #2a52be;
+}
+a.emergency:hover {
+	text-decoration: underline; color: #ff0099;
+}
+a.emergency:active {
+	text-decoration: none; color: #2a52be;
+}
+
+a.involved:link {
+	text-decoration: none; color: #cc0000;
+}
+a.involved:visited {
+	text-decoration: none; color: #cc0000;
+}
+a.involved:hover {
+	text-decoration: underline; color: #f4c2c2;
+}
+a.involved:active {
+	text-decoration: none; color: #cc0000;
+}
+
+a.page:link {
+	text-decoration: none; color: #138808;
+}
+a.page:visited {
+	text-decoration: none; color: #138808;
+}
+a.page:hover {
+	text-decoration: underline; color: #b2ec5d;
+}
+a.page:active {
+	text-decoration: none; color: #138808;
+}
+
+
+/*TEXT STYLE*/
+p.floatR {
+	float:right;
+}
+p {
+  line-height: 30px;  /* within paragraph */
+  margin-bottom: 30px; /* between paragraphs */
+  }
+li {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+p.smol {
+	font-size: xx-small;
+	line-height: 10px;
+	margin-bottom: 5px;
+}
+blockquote#center {
+
+}
+
+
+/*IMAGE STYLE*/
+
+img.headshot {
+	width: 100px;
+	float: right;
+	padding: 10px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+img#letter {
+	margin: 20px;
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+#graphssmaller {
+	display: block;
+  margin-left: 100px;
+  margin-right: 400px;
+	height: 400px;
+	width: 400px;
+}
